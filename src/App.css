@@ -5,7 +5,8 @@
 }
 
 .app {
-  display: block;
+  display: flex;
+  flex-direction: row;
 }
 
 .nav {
@@ -20,4 +21,9 @@
 .burger-btn{
   background-color: transparent;
   cursor: pointer;
+}
+
+.main{
+  width: 50%;
+  margin-left: 64px;
 }

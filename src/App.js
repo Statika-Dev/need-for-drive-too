@@ -2,6 +2,7 @@ import './App.css';
 import React, { useState } from "react";
 import burgerMenu from'./menu_btn.svg';
 import Menu from './burgerMenu/Menu';
+import CarouselBox from  './carouselBox/CarouselBox'
 
 
 
@@ -21,8 +22,12 @@ function App() {
           <img src={burgerMenu} alt="no download"></img>
         </div>
       </div>
-      
+
       <Menu active = {menuActive} setActive = {setMenuActive} items={items}/>
+      <div className="main">
+        <h1>Каршеринг<br/><span>Need for drive</span></h1>
+      </div>
+      <CarouselBox/>
     </div>
   );
 }
