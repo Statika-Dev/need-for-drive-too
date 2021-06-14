@@ -9,10 +9,10 @@ import service from "../assets/s4-service.jpg";
 export default class CarouselBox extends Component{
     render(){
         return (
-            <Carousel className="w-50">
+            <Carousel className="d-block w-47 ">
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block w-47"
                         src={freePark}
                         alt="парковка"
                     />
@@ -22,7 +22,7 @@ export default class CarouselBox extends Component{
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block w-47 "
                         src={inSur}
                         alt="страховка"
                     />
@@ -32,7 +32,7 @@ export default class CarouselBox extends Component{
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block w-47"
                         src={fuel}
                         alt="бензин"
                     />
@@ -42,7 +42,7 @@ export default class CarouselBox extends Component{
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block w-47 "
                         src={service}
                         alt="обслуживание"
                     />

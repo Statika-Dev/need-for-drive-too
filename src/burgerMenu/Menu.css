@@ -44,5 +44,28 @@ ul {
     justify-content: space-between;
     list-style-type:none;
     height: 182px;
+    text-decoration: none;
 
 }
+
+li a:hover{
+    color: #0EC261;
+
+}
+
+.media{
+    width: 144px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 44px;
+}
+
+.icons{
+    fill:white;
+}
+
+.icons:hover{
+    fill:  #0EC261;
+}
+
