@@ -2,7 +2,7 @@ import './App.css';
 import React, { useState } from "react";
 import burgerMenu from'./menu_btn.svg';
 import Menu from './burgerMenu/Menu';
-import CarouselBox from  './carouselBox/CarouselBox';
+import Slider from './Slider/Slider';
 import pointer from './Group.svg';
 
 
@@ -47,7 +47,7 @@ function App() {
           <span>8 (495) 234-22-44</span>
         </div>
       </div>
-     
+      <Slider/>
     </div>
   );
 }
